@@ -4734,21 +4734,21 @@ html:has(.drawer-toggle:checked) {
 
 .backgrnd {
     position: relative;
-    background-image: url(/img/homebg-BRLqGJiX.jpg), linear-gradient(#00000080, #00000080);
+    background-image: url(/img/homebg.jpg), linear-gradient(#00000080, #00000080);
     background-size: cover;
     background-position: center
 }
 
 .loginbackgrnd {
     position: relative;
-    background-image: url(/img/homebg-BRLqGJiX.jpg), linear-gradient(#00000080, #00000080);
+    background-image: url(/img/homebg.jpg), linear-gradient(#00000080, #00000080);
     background-size: cover;
     background-position: center
 }
 
 .Earnbackgrnd {
     position: relative;
-    background-image: url(/img/homebg-BRLqGJiX.jpg), linear-gradient(#00000080, #00000080);
+    background-image: url(/img/homebg.jpg), linear-gradient(#00000080, #00000080);
     background-size: cover;
     background-position: center
 }
