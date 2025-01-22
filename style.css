@@ -4752,3 +4752,48 @@ html:has(.drawer-toggle:checked) {
     background-size: cover;
     background-position: center
 }
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-40px);
+        /* You can adjust the distance here */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animate-up-down {
+    animation: moveUpDown 2s infinite ease-in-out;
+}
+
+@keyframes leftRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-8px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    75% {
+        transform: translateX(-4px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hover\:animate-left-right:hover {
+    animation: leftRight 0.3s ease-in-out;
+}
